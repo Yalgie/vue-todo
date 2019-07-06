@@ -1,7 +1,7 @@
 <template>
     <div id="app">
         <Header />
-        <img alt="Vue logo" src="./assets/neds-logo.png">
+        <img alt="Vue logo" src="./assets/logo.png">
         <AddTodo v-on:add-todo="addTodo" />
         <Todos v-bind:todos="todos" v-on:del-todo="deleteTodo" />
     </div>
